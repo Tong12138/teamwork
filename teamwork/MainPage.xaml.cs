@@ -26,5 +26,15 @@ namespace teamwork
         {
             this.InitializeComponent();
         }
+
+        private void TextBlock_PointerEntered(object sender, PointerRoutedEventArgs e)
+        {
+            TextBl.Text = "hello";
+        }
+
+        private void TextBl_PointerExited(object sender, PointerRoutedEventArgs e)
+        {
+            TextBl.Text = "U";
+        }
     }
 }

@@ -7,7 +7,9 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <TextBlock FontSize="48">TeamWork</TextBlock>
-    </Grid>
+  <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <TextBlock FontSize="48">TeamWork</TextBlock>
+    <TimePicker HorizontalAlignment="Left" Margin="565,224,0,0" VerticalAlignment="Top"/>
+    <TextBlock x:Name="TextBl" HorizontalAlignment="Left" Margin="564,365,0,0" Text="Hello" TextWrapping="Wrap" VerticalAlignment="Top" Width="249" Height="237" PointerEntered="TextBlock_PointerEntered" FontSize="48" FontStyle="Italic" TextAlignment="Center" LineHeight="8" PointerExited="TextBl_PointerExited"/>
+  </Grid>
 </Page>
