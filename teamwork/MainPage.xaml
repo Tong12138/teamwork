@@ -8,8 +8,27 @@
     mc:Ignorable="d">
 
   <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-    <TextBlock FontSize="48">TeamWork</TextBlock>
-    <TimePicker HorizontalAlignment="Left" Margin="565,224,0,0" VerticalAlignment="Top"/>
-    <TextBlock x:Name="TextBl" HorizontalAlignment="Left" Margin="564,365,0,0" Text="Hello" TextWrapping="Wrap" VerticalAlignment="Top" Width="249" Height="237" PointerEntered="TextBlock_PointerEntered" FontSize="48" FontStyle="Italic" TextAlignment="Center" LineHeight="8" PointerExited="TextBl_PointerExited"/>
+        <Grid>
+            <RelativePanel>
+                <Rectangle Name="GrayRect" Fill="Gray" Width="240" Height="100">
+                </Rectangle>
+                <TextBlock FontSize="48" Name="TeamWorkText"
+                           RelativePanel.AlignLeftWithPanel="True">TeamWork</TextBlock>
+                <TimePicker HorizontalAlignment="Left" Margin="0,0,0,0" VerticalAlignment="Top"
+                            RelativePanel.AlignRightWithPanel="True"
+                            Name="MyTimePicker"/>
+                <TextBlock x:Name="TextBl" HorizontalAlignment="Left" Margin="0,200,200,0" Text="Clike me~" 
+                           TextWrapping="Wrap" VerticalAlignment="Top" 
+                           PointerEntered="TextBlock_PointerEntered" FontSize="48" FontStyle="Italic" 
+                           TextAlignment="Center" LineHeight="8" PointerExited="TextBl_PointerExited"
+                           RelativePanel.AlignVerticalCenterWithPanel="True"
+                           RelativePanel.AlignRightWithPanel="True"
+                           
+                          />
+            </RelativePanel>
+        </Grid>
+            
+
+   
   </Grid>
 </Page>

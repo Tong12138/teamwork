@@ -29,12 +29,12 @@ namespace teamwork
 
         private void TextBlock_PointerEntered(object sender, PointerRoutedEventArgs e)
         {
-            TextBl.Text = "hello";
+            TextBl.Text = "No way!";
         }
 
         private void TextBl_PointerExited(object sender, PointerRoutedEventArgs e)
         {
-            TextBl.Text = "U";
+            TextBl.Text = "Click me~";
         }
     }
 }
