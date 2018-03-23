@@ -26,8 +26,10 @@
                            
                           />
             </RelativePanel>
-            <TextBlock x:Name="hello1" HorizontalAlignment="Left" Margin="996,100,0,0" Text="hello" TextWrapping="Wrap" VerticalAlignment="Top" Width="209" Height="46"/>
+            <TextBlock x:Name="hello1" HorizontalAlignment="Left" Margin="900,100,0,0" Text="hello" TextWrapping="Wrap" VerticalAlignment="Top" Width="209" Height="46"/>
             <TextBlock x:Name="hello2" HorizontalAlignment="Left" Margin="1200,300,0,0" Text="hello" TextWrapping="Wrap" VerticalAlignment="Top" Width="205" Height="64"/>
+            <TextBlock x:Name="world" HorizontalAlignment="Left" Margin="1050,200,0,0" Text="world" TextWrapping="Wrap" VerticalAlignment="Top" Width="205" Height="64"/>
+
         </Grid>
 
 
